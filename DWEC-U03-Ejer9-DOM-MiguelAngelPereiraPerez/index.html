@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="app.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      tr,
+      td,
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+      }
+
+      td > div {
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+				padding: 0px;
+				margin: 0px;
+      }
+
+			td > div:hover {
+				border: 5px solid rebeccapurple;
+			}
+
+      #yellow {
+        background-color: yellow;
+      }
+      #green {
+        background-color: green;
+      }
+      #black {
+        background-color: black;
+      }
+      #red {
+        background-color: red;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #white {
+        background-color: white;
+      }
+
+			#drawingTable {
+				margin: 0px;
+				padding: 0px;
+			}
+			#drawingTable td{
+				width: 20px;
+				height: 20px;
+			}
+			#drawingTable tr, #drawingTable td {
+				border: 1px solid black;
+			}
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>TABLERO DE DIBUJO JAVASCRIPT</h1>
+
+    <h3>Haga click en un color para comenzar a pintar</h3>
+
+    <table>
+      <tr>
+        <td><div id="yellow"></div></td>
+        <td><div id="green"></div></td>
+        <td><div id="black"></div></td>
+        <td><div id="red"></div></td>
+        <td><div id="blue"></div></td>
+        <td><div id="white"></div></td>
+      </tr>
+      <tr>
+        <td id="btnDrawOrNot" colspan="6">PINCEL DESACTIVADO</td>
+      </tr>
+		</table>
+		<br><br>
+  </body>
+</html>
