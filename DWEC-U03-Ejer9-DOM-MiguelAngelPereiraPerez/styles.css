@@ -1,0 +1,66 @@
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        text-align: center;
+      }
+      tr,
+      td,
+      table {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+      }
+
+#container {
+  text-align: center;
+  display: inline-block
+}
+      td > div {
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      td > div:hover {
+        border: 5px solid rebeccapurple;
+      }
+
+      #yellow {
+        background-color: yellow;
+      }
+      #green {
+        background-color: green;
+      }
+      #black {
+        background-color: black;
+      }
+      #red {
+        background-color: red;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #white {
+        background-color: white;
+      }
+
+      #drawingTable {
+        margin: 0px;
+        padding: 0px;
+      }
+      #drawingTable td {
+        width: 20px;
+        height: 20px;
+      }
+      #drawingTable tr,
+      #drawingTable td {
+        border: 1px solid black;
+      }
+ 
